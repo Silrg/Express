@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAC2 parte 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Añadir animales</h1>
+    <input type="text" placeholder="Nombre" id="nombre" />
+    <input type="text" placeholder="Especie" id="especie" />
+    <input type="text" placeholder="Alimentación" id="alimentacion" />
+    <input type="num" placeholder="Longevidad" id="longevidad" />
+    <input type="text" placeholder="Imagen" class = "imgInput" id="img" />
+    <button onclick="insertar()">Insertar</button>
+
+
+    <h1>Editar animales</h1>
+    <p>Introduce el nombre del animal que quieres modificar:</p>
+    <input type="text" id="nombreEditar" placeholder="Nombre" />
+    <p>Introduce el cambio de las características de los animales:</p>
+    <input type="text" id="especieEditar" placeholder="Especie" />
+    <input type="text" id="alimentacionEditar" placeholder="Alimentacion" />
+    <input type="text" id="longevidadEditar" placeholder="Longevidad" />
+    <input type="text" id="imgEditar" placeholder="imagen" />
+    <button onclick="editar()">Editar</button>
+   
+
+    <h1>Borra un animal</h1>
+    <input type="text" placeholder="Nombre" id="nombreBorrar" />
+    <button onclick="borrar()">Borrar</button>
+
+    <h1>Animales disponibles en la base de datos</h1>
+    <div id="mostrarAnimales"> </div>
+
+    <script src="./demo.js"></script>
+</body>
+
+</html>

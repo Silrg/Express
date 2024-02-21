@@ -1,0 +1,31 @@
+.card {
+    height: 40%;
+    width: 80%;
+    background-color: #e7e4cb;
+    box-shadow:  0 10px 80px 0 rgb(233, 217, 217);
+    border: 2px black solid;
+    margin: 5px;
+    text-align: center;
+    background-color: #41091A;
+}
+
+#print {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    background-size: cover;
+    box-shadow:  0 10px 20px 0 black;
+}
+
+#img {
+   
+    border: 2px solid #080707;
+    border-radius: 5px;
+}
+body {
+    background-image: url("https://www.klinerprofesional.com/wp-content/uploads/2015/10/fondo-naturaleza.jpg");
+    background-size: cover;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
